@@ -3,12 +3,13 @@ import { Container, FloatingLabel, Form } from 'react-bootstrap';
 import './Contact.css';
 const Contact = () => {
     return (
-        <div>
+       <div style={{overflow:'hidden'}}>
+     
              <h3 style={{ textAlign: 'center', fontSize: '3rem',color:'rgb(167, 26, 26)' }}>Contact with Us</h3>
             <hr style={{ color: 'rgb(167, 26, 26)' }} />
             <br />
             <br />
-            <Container>
+            <Container style={{marginRight:'-12rem'}}>
                 <FloatingLabel
                         controlId="floatingInput"
                         label="First Name"

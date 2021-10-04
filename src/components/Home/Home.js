@@ -19,7 +19,7 @@ const Home = () => {
         .then(data=>setTeams(data))
     }, []);
     return (
-        <div>
+        <div >
            
                 {/* hero section  */}
                     <div className='bg-img'>

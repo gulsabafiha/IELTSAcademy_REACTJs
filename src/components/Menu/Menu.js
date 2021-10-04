@@ -5,7 +5,7 @@ import './Menu.css';
 
 const Menu = () => {
   return (
-    <div style={{overflow:'hidden'}}>
+    <div className='mx-auto'>
   <Navbar bg="dark" variant="dark">
     <Container>
     <Navbar.Brand >IELTS</Navbar.Brand>

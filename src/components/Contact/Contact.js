@@ -9,7 +9,7 @@ const Contact = () => {
             <hr style={{ color: 'rgb(167, 26, 26)' }} />
             <br />
             <br />
-            <Container style={{marginRight:'-12rem'}}>
+            <Container className='mx-auto'>
                 <FloatingLabel
                         controlId="floatingInput"
                         label="First Name"

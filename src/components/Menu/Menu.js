@@ -5,10 +5,10 @@ import './Menu.css';
 
 const Menu = () => {
   return (
-    <div className='mx-auto'>
+    <div >
   <Navbar bg="dark" variant="dark">
-    <Container>
-    <Navbar.Brand >IELTS</Navbar.Brand>
+    <Container className='mx-auto'>
+    <Navbar.Brand >IELTS Academy</Navbar.Brand>
           <Nav className="me-auto">
             <div  className='menu-div'>
             <NavLink className='menu' to="/home"

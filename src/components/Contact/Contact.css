@@ -1,0 +1,21 @@
+.con-btn button{
+    padding:1rem 2.5rem;
+    background: transparent;
+    border-radius: 30px;
+    color: rgb(8, 8, 8);
+    transition: all 0.3s ease 0s;
+    letter-spacing: 2.5px;
+  font-weight: 600;
+  border:2px solid rgb(167, 26, 26);
+  font-size: 1rem;
+}
+.con-btn button:hover {
+    background-color: rgb(167, 26, 26);
+    box-shadow: 0px 15px 20px rgba(196, 27, 27, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+.con-btn{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}

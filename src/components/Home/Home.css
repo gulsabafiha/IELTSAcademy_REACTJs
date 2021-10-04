@@ -1,0 +1,46 @@
+.bg-img{
+    margin-top: -1.5rem;
+    background-image: url('https://takeielts.britishcouncil.org/sites/default/files/styles/bc-landscape-1440x810/public/south-asia-student-1000x562-2.jpg?itok=n2PNmkEZ');
+    background-position: center;
+}
+.text-bg{
+    color: rgb(206, 200, 200);
+    padding: 3rem;
+}
+.text-bg h1{
+    font-size: 5rem;
+}
+.text-bg p{
+    font-size: 1.5rem;
+    padding-top: 3rem;
+}
+.text-bg button{
+    padding:1rem 1.5rem;
+    background: transparent;
+    border-radius: 30px;
+    color: rgb(206, 200, 200);
+    transition: all 0.3s ease 0s;
+    letter-spacing: 2.5px;
+  font-weight: 500;
+  border: 2px solid white;
+}
+.text-bg button:hover {
+    background-color: rgb(167, 26, 26);
+    box-shadow: 0px 15px 20px rgba(196, 27, 27, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+    border: none;
+  }
+  .btn-div{
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+  }
+.service{
+    margin: 3rem;
+  }
+  .container{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: -5rem;
+  }

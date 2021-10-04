@@ -1,0 +1,11 @@
+.menu{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+}
+.menu:hover{
+    color: #fff;
+}
+.menu-div{
+    float: right;
+}

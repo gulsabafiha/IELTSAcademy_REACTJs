@@ -1,0 +1,8 @@
+.course-container{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    overflow: hidden;
+    margin-left: -3rem;
+   
+}

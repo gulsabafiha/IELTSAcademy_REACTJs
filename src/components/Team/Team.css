@@ -1,0 +1,107 @@
+.team-container{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin:40px 20px;
+}
+.team-card{
+   position: relative;
+    width: 320px;
+    height: 450px;
+    background: #232323;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.team-card::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(167, 26, 26);
+    clip-path: circle(150px at 80% 20%);
+    transition: 0.5s ease-in-out;
+}
+.team-card:hover::before{
+    clip-path: circle(300px at 80% -20%);
+}
+.team-card::after{
+    content: "Team"  ;
+    position:absolute;
+    top: 30%;
+    left: -10%;
+    font-size: 12em;
+    font-weight: 800;
+    font-style: italic;
+    color: rgba(255,255,255,0.04);
+}
+.team-card .team-imgbx{
+    position: absolute;
+    top: 50%;
+    transform:translateY(-90%);
+    z-index: 10000;
+    width: 100%;
+    height: 220px;
+    transition: 0.5s;
+}
+.team-card:hover .team-imgbx{
+    top: 0;
+    transform: translateY(0%);
+}
+.team-card .team-imgbx img{
+    height: 210px;
+    width: 330px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 270px;
+}
+.contentbx{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    transition: 1s;
+    z-index: 10;
+}
+.team-card:hover .contentbx{
+    height: 210px;  
+}
+.team-card .contentbx h2{
+    position: relative;
+    font-weight: 600 ;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.team-card .contentbx .size,
+ .team-card .contentbx .color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+.team-card:hover .contentbx .size{
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.5s;
+}
+.team-card:hover .contentbx .color{
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.5s;
+}
+ .team-card .contentbx .size h3,
+ .team-card .contentbx .color h3{
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 10px;
+}

@@ -1,0 +1,26 @@
+[
+    {
+      "name": "John Doe",
+      "position": "CEO",
+      "details": "EduPress is a powerful Education HTML template that comes with an easy template option interface. Suspendisse ante mi.",
+      "img": "https://psdconverthtml.com/live/edupress/upload/testi_01.png"
+    },
+    {
+      "name": "Bernice Neumann",
+      "position": "English Expert",
+      "details": "EduPress is a powerful Education HTML template that comes with an easy template option interface. Suspendisse ante mi.",
+      "img": "https://psdconverthtml.com/live/edupress/upload/testi_02.png"
+    },
+    {
+      "name": "Jenny Camerone",
+      "position": "Coach",
+      "details": "EduPress is a powerful Education HTML template that comes with an easy template option interface. Suspendisse ante mi.",
+      "img": "https://psdconverthtml.com/live/edupress/upload/testi_03.png"
+    },
+    {
+      "name": "Bob Neumann",
+      "position": "Advice Manager",
+      "details": "EduPress is a powerful Education HTML template that comes with an easy template option interface. Suspendisse ante mi.",
+      "img": "https://psdconverthtml.com/live/edupress/upload/testi_04.png"
+    }
+  ]

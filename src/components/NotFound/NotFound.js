@@ -1,12 +1,10 @@
 import React from 'react';
+import './NotFound.css';
 
 const NotFound = () => {
     return (
-        <div style={{backgroundColor:'rgb(33, 37, 41)',marginTop:'-1.5rem'}}>
-             <h3 style={{ textAlign: 'center', fontSize: '3rem',color:'rgb(167, 26, 26)' }}>Sorry!! Page didn't find!!!</h3>
-            <hr style={{ color: 'rgb(167, 26, 26)' }} />
-            <br />
-            <br />
+        <div style={{marginLeft:'15rem'}}>
+            <img src="https://www.prestashop.com/sites/default/files/styles/blog_750x320/public/blog/2019/10/banner_error_404.jpg?itok=eAS4swln" className='m-5'  alt="" />
         </div>
     );
 };

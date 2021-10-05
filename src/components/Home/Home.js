@@ -37,7 +37,7 @@ const Home = () => {
                     <div className='service'>
                         <h4>IELTS (International English Language Testing System) is the world's most popular English language test for higher education and global migration.</h4>
                         <h3 style={{ textAlign: 'center', fontSize:'3rem',color:'rgb(167, 26, 26)'}}>Courses We have</h3>
-                        <hr style={{color:'rgb(167, 26, 26)'}} />
+                        <hr className='mx-auto' style={{color:'rgb(167, 26, 26)',width:'80%',height:'2px'}} />
                     </div>
                     <div className='container'>
                         {
@@ -47,7 +47,7 @@ const Home = () => {
             
             {/* Meet our expert */}
             <h3 style={{ textAlign: 'center', fontSize: '3rem' ,color:'rgb(167, 26, 26)'}}>Meet Our Teams</h3>
-            <hr style={{color:'rgb(167, 26, 26)'}} />
+            <hr className='mx-auto' style={{color:'rgb(167, 26, 26)',width:'80%',height:'2px'}} />
             <div className='team-container'>
                 {
                     teams.map(team=><Team team={team}></Team>)

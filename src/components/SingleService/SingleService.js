@@ -5,8 +5,8 @@ import './SingleService.css'
 const SingleService = (props) => {
     const { name, details, img } = props.service;
     return (
-        <div className='container-single'>
-            <div className='card'>
+        <div className='container-single mx-auto'>
+            <div className='card m-5'>
                 <div className='imgbx'>
                     <Card.Img  variant="top" src={img} />
                 </div>

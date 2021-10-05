@@ -3,12 +3,12 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
     margin:40px 20px;
-}
+} 
 .team-card{
    position: relative;
     width: 320px;
     height: 450px;
-    background: #232323;
+    background: rgb(33, 37, 41);
     border-radius: 20px;
     overflow: hidden;
 }
@@ -74,7 +74,7 @@
     position: relative;
     font-weight: 600 ;
     letter-spacing: 1px;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 .team-card .contentbx .size,
  .team-card .contentbx .color{
@@ -98,7 +98,7 @@
 }
  .team-card .contentbx .size h3,
  .team-card .contentbx .color h3{
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-weight: 300;
     font-size: 14px;
     text-transform: uppercase;

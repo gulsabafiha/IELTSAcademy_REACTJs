@@ -5,8 +5,8 @@ const Contact = () => {
     return (
        <div style={{overflow:'hidden'}}>
      
-             <h3 style={{ textAlign: 'center', fontSize: '3rem',color:'rgb(167, 26, 26)' }}>Contact with Us</h3>
-            <hr style={{ color: 'rgb(167, 26, 26)' }} />
+             <h3 style={{ textAlign: 'center', fontSize: '3rem',color:'rgb(167, 26, 26)' }}>Contact Us</h3>
+             <hr className='mx-auto' style={{color:'rgb(167, 26, 26)',width:'80%',height:'2px'}} />
             <br />
             <br />
             <Container className='mx-auto'>
@@ -44,6 +44,6 @@ const Contact = () => {
             </Container>
         </div>
     );
-};
+}; 
 
 export default Contact;

@@ -39,7 +39,7 @@ const Home = () => {
                         <h3 style={{ textAlign: 'center', fontSize:'3rem',color:'rgb(167, 26, 26)'}}>Courses We have</h3>
                         <hr className='mx-auto' style={{color:'rgb(167, 26, 26)',width:'80%',height:'2px'}} />
                     </div>
-                    <div className='container'>
+                    <div className='container mx-auto'>
                         {
                             services.map(service => <SingleService service={ service}/>)
                         }

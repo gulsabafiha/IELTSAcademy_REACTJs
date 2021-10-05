@@ -6,8 +6,8 @@ import './Menu.css';
 const Menu = () => {
   return (
     <div >
-  <Navbar bg="dark" variant="dark">
-    <Container className='mx-auto'>
+  <Navbar bg="dark" sticky="top" variant="dark">
+    <Container className='mx-auto '>
     <Navbar.Brand >IELTS Academy</Navbar.Brand>
           <Nav className="me-auto">
             <div  className='menu-div'>
